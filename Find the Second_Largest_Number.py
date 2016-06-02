@@ -6,3 +6,10 @@ while max(lis) == z:
     lis.remove(max(lis))
 
 print max(lis)
+
+'''
+# Another good idea
+N = int(input())
+num = map(int,raw_input().split())
+print sorted(list(set(num)))[-2]
+'''
